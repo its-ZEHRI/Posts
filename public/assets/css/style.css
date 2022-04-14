@@ -1,0 +1,154 @@
+body{
+    height: 100vh;
+}
+.wrappper{
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+}
+.over{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: -9999;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.slot{
+    position: absolute;
+    height: 85vh;
+    width: 80%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem;
+    padding-bottom: 0px!important;
+    background-color:whitesmoke;
+}
+.content h1{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+.content h1 span{
+    font-size: 4.5rem!important;
+    color: #1A8CD8;
+    text-shadow: 1px 1px 1px  white;
+}
+.content p{
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    word-spacing: 5px;
+    font-weight: 100;
+    margin-bottom: 2.5rem;
+}
+.butn{
+    display: inline-block;
+    text-align: center;
+    width: 12rem;
+    padding: 8px 15px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.content .btn-S-in{
+    border: 1px solid #1A8CD8;
+    background-color: #1A8CD8;
+    color: #fff;
+}
+.content .btn-S-in:hover{
+    border: 1px solid #1A8CD8;
+    background-color: transparent;
+}
+.content .btn-S-up{
+    border: 1px solid #fff;
+    color: #fff;
+}
+.content .btn-S-up:hover{
+    border: 1px solid #1A8CD8;
+    background-color: #1A8CD8;
+}
+.btnCreate{
+    padding: 5px 15px!important;
+    width: 10rem!important;
+    border: 1px solid #1A8CD8;
+    color: #1A8CD8;
+}
+.btnCreate:hover{
+    border: 1px solid #1A8CD8;
+    background-color: #1A8CD8;
+    color: #fff;
+}
+.cPost-btn{
+    margin-top: 1rem;
+    border: 1px solid #1A8CD8;
+    color: #1A8CD8;
+}
+.cPost-btn:hover{
+    background-color:#1A8CD8;
+    color: #fff;
+}
+.post-link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+.post-link:hover{
+    color: rgba(0, 0, 0, 1);
+
+}
+.post{
+    overflow: hidden;
+    padding: 5px 2rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.post h5{
+    text-transform: capitalize;
+}
+.post-body{
+    height: 60vh;
+    overflow-y:auto ;
+    padding-bottom: 30px;
+}
+.post span{
+    font-size: 12px;
+}
+.post:hover{
+    transform: scale(1.005);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+
+}
+.post-title{
+    text-transform: capitalize;
+    color: #1A8CD8;
+}
+.back{
+    position: absolute;
+    background-color: whitesmoke;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.back a{
+    color: #1A8CD8;
+    border: 1px solid #1A8CD8;
+    width: 6rem;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    padding: 5px 12px!important ;
+}
+.back a:hover{
+    background-color: #1A8CD8;
+    color: #fff;
+}
+
+
